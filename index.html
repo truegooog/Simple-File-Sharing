@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Sharing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .upload-form {
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .upload-form h2 {
+            text-align: center;
+        }
+        .upload-form input[type="file"] {
+            display: block;
+            margin: 20px auto;
+        }
+        .upload-form input[type="submit"] {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .upload-form input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>File Sharing</h1>
+    <div class="upload-form">
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <h2>Upload Files (Max 10MB)</h2>
+            <input type="file" name="fileUpload" accept=".torrent, .zip, .rar, .html, .txt, .jpg, .jpeg, .png, .gif, .mp3, .mp4, .pdf" multiple />
+            <input type="submit" value="Upload" />
+        </form>
+    </div>
+</body>
+</html>
