@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="https://chartreuseexcitedtruespace.shadow-vm.repl.co/301.png" width="350" title="Simple File Sharing">
+  <img src="https://rudejovialvendor.shadow-vm.repl.co/esf.png" width="350" title="Anonymous Chat">
 </p>
